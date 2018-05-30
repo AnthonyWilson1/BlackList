@@ -113,6 +113,8 @@ class ResponsiveDrawer extends React.Component {
         <Divider />
         <List><a href="/calendar">Calendar</a></List>
         <Divider />
+        <List><a href="/complete">Completed Chart</a></List>
+        <Divider />
         <List><a href="/about">About</a></List>
         <Divider />
       </div>
