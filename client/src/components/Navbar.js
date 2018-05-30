@@ -1,35 +1,18 @@
 //This file has the Appbar and menu drawer
 import React from 'react';
 import PropTypes from 'prop-types';
-// import classNames from 'classnames';
 import { withStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import List from '@material-ui/core/List';
-// import MenuItem from '@material-ui/core/MenuItem';
 import Typography from '@material-ui/core/Typography';
-// import TextField from '@material-ui/core/TextField';
 import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-// import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-// import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-// import black from '@material-ui/core/colors/black';
-// import Todolist from './Todolist2';
-// import Calendar from './Calendar';
 import Header from './Header.js';
 import Hidden from '@material-ui/core/Hidden';
-// import Home from './Homepage.js';
-// import Landing from './Landing.js';
-// import { createMuiTheme } from '@material-ui/core/styles';
-// import About from './About';
-// import FormGroup from '@material-ui/core/FormGroup';
-// import black from '@material-ui/core/colors/black';
-// import { mailFolderListItems, otherMailFolderListItems } from './tileData';
-// import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
-// import ListItemText from '@material-ui/core/ListItemText/ListItemText';
 
 const drawerWidth = 125;
 
@@ -54,13 +37,8 @@ const styles = theme => ({
     marginLeft: drawerWidth,
     [theme.breakpoints.up('md')]: {
       width: `calc(100% - ${drawerWidth}px)`,
-      // direction: 'row',
-      // justify: 'center',
-      // alignItems: 'center',
     }, 
     width: '100%',
-    // display: 'flex',
-    // flexWrap: 'wrap',
     disableGutters: 'true',
   },
   navIconHide: {
@@ -110,13 +88,13 @@ class ResponsiveDrawer extends React.Component {
         <Divider />
         <List><a href="/" >Home</a></List>
         <Divider />
-        <List><a href="/dashboard">Create New Task</a></List>
+        <List><a href="/landing">Create Task</a></List>
         <Divider />
-        <List><a href="/lists">Your Lists</a></List>
+        <List><a href="/dashboard">Dashboard</a></List>
         <Divider />
         <List><a href="/calendar">Calendar</a></List>
         <Divider />
-        <List><a href="/complete">Completed Chart</a></List>
+        <List><a href="/chart">Productivity</a></List>
         <Divider />
         <List><a href="/about">About</a></List>
         <Divider />

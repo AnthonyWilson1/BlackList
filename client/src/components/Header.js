@@ -1,8 +1,6 @@
 import React,  {Component} from 'react';
 import axios from 'axios';
 import Typography from '@material-ui/core/Typography';
-//import './Header.css';
-
 
 class Header extends Component {
     constructor(props) {
@@ -30,23 +28,20 @@ class Header extends Component {
                 // case null:
                 // return 'Still Deciding'
                 case false:
-                return <Typography align="center" variant="subheading"> <a href="/auth/google" >Google Login</a> </Typography>
+                return <Typography variant="subheading"><a href="/auth/google" >Login With Google</a> </Typography>
                 case true:
-                return <Typography align="center" variant="subheading"> <a href="/api/logout">Logout</a> </Typography>
+                return <Typography variant="subheading"><a href="/api/logout">Logout</a></Typography>
                 default:
                 return 'Home '
             }
        }
 
-       
 
    render() {
        return(
-                <div>
-                    <ul>
-                    {this.renderContent()}
-                    </ul>   
-                </div>   
+        <div>
+            {this.renderContent()}
+        </div> 
        )   
    }
 }

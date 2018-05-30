@@ -21,7 +21,7 @@ function Fab(props) {
   const { classes } = props;
   return (
     <div>
-      <Button variant="fab" color="primary" aria-label="add" className={classes.button} a href="/dashboard" align="right">
+      <Button variant="fab" color="primary" aria-label="add" className={classes.button} a href="/landing" align="right">
         <AddIcon />
       </Button>
       </div>
