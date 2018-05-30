@@ -20,7 +20,7 @@ class About extends Component {
                 <div >
                     <h3>The BLACKlist ToDo List</h3>
                     <p>
-                    <a href="https://github.com/briceaugustyn/todolist2/" >Source Github</a>
+                    <a href="https://github.com/AnthonyWilson1/BlackList/" >Source Github</a>
                     </p>
                     <p>Created by Brice, Larry, Anthony, Christian, and Kimberly</p>
                 </div>
