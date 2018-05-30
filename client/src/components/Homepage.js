@@ -5,6 +5,7 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import 'typeface-roboto';
 import Grid from '@material-ui/core/Grid';
+import SwipeableTextMobileStepper from './Swipeable'
 
 const styles = theme => ({
     root: theme.mixins.gutters({
@@ -35,6 +36,7 @@ const styles = theme => ({
         </Paper>
         </Grid>
         <Grid item xs></Grid></Grid>
+        <SwipeableTextMobileStepper/>
       </div>
     );
   }
