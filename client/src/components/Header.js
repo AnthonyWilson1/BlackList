@@ -30,9 +30,9 @@ class Header extends Component {
                 // case null:
                 // return 'Still Deciding'
                 case false:
-                return <Typography variant="subheading"> <a href="/auth/google" >Login With Google</a> </Typography>
+                return <Typography align="center" variant="subheading"> <a href="/auth/google" >Google Login</a> </Typography>
                 case true:
-                return <Typography variant="subheading"> <a href="/api/logout">Logout</a> </Typography>
+                return <Typography align="center" variant="subheading"> <a href="/api/logout">Logout</a> </Typography>
                 default:
                 return 'Home '
             }
