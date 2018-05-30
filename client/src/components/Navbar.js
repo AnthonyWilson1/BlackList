@@ -54,6 +54,9 @@ const styles = theme => ({
     marginLeft: drawerWidth,
     [theme.breakpoints.up('md')]: {
       width: `calc(100% - ${drawerWidth}px)`,
+      // direction: 'row',
+      // justify: 'center',
+      // alignItems: 'center',
     }, 
     width: '100%',
     // display: 'flex',
@@ -71,8 +74,8 @@ const styles = theme => ({
     [theme.breakpoints.up('md')]: {
       position: 'relative',
     },
-    backgroundColor:'inherit',
-    textColor: 'white'
+    color: 'inherit',
+    backgroundColor: 'inherit'
   },
   content: {
     flexGrow: 1,
@@ -122,10 +125,10 @@ class ResponsiveDrawer extends React.Component {
 
     return (
 
-      <div className={classes.root}>
-        <AppBar className={classes.appBar}>
+      <div className={classes.root} >
+        <AppBar className={classes.appBar} >
           <Toolbar>
-          <Grid container spacing ={24}>
+          <Grid container spacing ={24} direction="row" justify="center" alignItems="center">
             <Grid item xs>
             <IconButton
               color='primary'
@@ -137,7 +140,7 @@ class ResponsiveDrawer extends React.Component {
             </IconButton>
             </Grid>
             <Grid item xs={6}>
-            <Typography variant='display1' padding='20px 20px' align='center' color="inherit" wrap>
+            <Typography align="center" color="secondary" variant='display1' padding='20px 20px' align='center' color="inherit" wrap>
             BLACK List             
             </Typography>
             </Grid>

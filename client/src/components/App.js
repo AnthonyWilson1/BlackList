@@ -11,13 +11,14 @@ import Home from './Homepage.js'
 import Navbar from './Navbar';
 import About from './About';
 import Fab from './Fab';
-import Chart from './Chart.js'
+// import Chart from './Chart.js'
 //import Login from './login';
 // const title = () => (
 //   <div>
 //     <p>Hello World Brice 2</p>
 //   </div>
 // );
+import 'typeface-roboto';
 
 import Complete from './CompleteTasks.js';
 // import { createStore, applyMiddleware } from 'redux';
@@ -40,7 +41,7 @@ class App extends Component {
             <Route exact path="/" component={Home} /> 
               <Route exact path="/dashboard" component={Landing} />
               <Route path="/lists" component={TodoList} />
-              <Route path="/calendar" component={Chart} />
+              <Route path="/calendar" component={Calendar} />
               <Route path="/about" component={About} />
               <Route exact path="/complete" component={Complete} /> 
               {/* <Route exact path="/dashboard" component={test} />  */}
