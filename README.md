@@ -86,7 +86,7 @@
 
 ### Blacklist GitHub Repo:
 
-[GitHub](https://github.com/AnthonyWilson1/BlackList)
+[BlackList](https://github.com/AnthonyWilson1/BlackList)
 
 ### Features Coming Soon!
 
