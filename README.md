@@ -95,3 +95,32 @@
 > Timer
 > Reminder Notifications
 > Successful Project Management Testimonials
+
+
+#############################################################################################################################
+# Tutorial link usefull for graphs (Brice)
+1 React-chartjs-2 Github Page:
+https://github.com/jerairrest/react-chartjs-2
+2 Very good tutorial with react example:
+https://www.youtube.com/watch?v=Ly-9VTXJlnA
+3 basic stuff: Getting Started With Chart.js
+https://www.youtube.com/watch?v=sE08f4iuOhA
+
+
+Heroku:
+
+Authentication:
+
+React Route:
+
+React general:
+
+materialize UI:
+
+responsiveness:
+
+
+
+
+#############################################################################################################################
+
