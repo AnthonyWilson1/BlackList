@@ -6,7 +6,7 @@ import Home from './Homepage';
 import Landing from './Landing';
 import Dashboard from './Dashboard'
 import MyCalendar from './NewPage';
-import Navbar from './Navbar';
+import Navbar from './Navbar2';
 import About from './About';
 import Chart from './Chart';
 import Fab from './Fab';
@@ -26,7 +26,7 @@ class App extends Component {
               <Route exact path="/" component={Home} /> 
               <Route exact path="/landing" component={Landing}/> 
               <Route exact path="/dashboard" component={Dashboard} /> 
-              <Route exact path="/calendar" component={MyCalendar} /> 
+              {/* <Route exact path="/calendar" component={MyCalendar} />  */}
               <Route exact path="/chart" component={Chart} /> 
               <Route exact path="/about" component={About} /> 
 
