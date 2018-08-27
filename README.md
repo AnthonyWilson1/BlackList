@@ -4,7 +4,8 @@
 
 ## Overview & Functionality:
 
-> Never forget a task again! Stay on track and keep organized with _The Blacklist App_. The Blacklist has everything you need to maintain an active and busy lifestyle.
+The Blacklist is a self development mobile web application:Best tool to help you to become more productive than before. 
+Never forget a task again! Stay on track and keep organized with _The Blacklist App_. The Blacklist has everything you need to maintain an active and busy lifestyle.
 
 * Google Account Login | Multiple Users
 
